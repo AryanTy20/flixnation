@@ -73,6 +73,6 @@ if (current == 2) {
 }
 
 const getData = (id) => {
-  const url = `http://localhost:5000/download?id=${id}`;
+  const url = `https://flixnation.herokuapp.com/download?id=${id}`;
   window.open(url, "_self");
 };
