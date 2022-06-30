@@ -1,0 +1,129 @@
+.cardbox {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  cursor: pointer;
+
+  .card {
+    height: 22em;
+    width: 12.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform ease 0.3s;
+
+    &:is(:hover, :active) {
+      transform: scale(1.04);
+    }
+
+    .imgbox {
+      height: 18em;
+      width: 100%;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .card-body {
+      height: 1em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 0.2em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      h5 {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+#pagination {
+  padding: 0.3em;
+  display: flex;
+  align-items: start;
+
+  a {
+    margin: 0 0.2em;
+    &:hover:not(.active) {
+      background-color: #ddd;
+    }
+  }
+
+  .disable {
+    pointer-events: none;
+    opacity: 0.8;
+  }
+}
+
+.downBox {
+  display: flex;
+  align-items: center;
+  height: 29em;
+
+  .poster {
+    width: 15em;
+
+    .card {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .download {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-rows: auto;
+    overflow: scroll;
+    padding: 1em 2em;
+    gap: 1em;
+    .down-movie {
+      position: relative;
+      top: 50%;
+      margin-inline: auto;
+      max-height: 2.5em;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .downBox {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .download {
+    margin-top: 2em;
+    display: block;
+    width: 16em !important;
+  }
+
+  .cardbox {
+    display: grid;
+    grid-template: auto / repeat(2, 1fr);
+    padding: 0 0.8em 0 0;
+
+    .card {
+      height: 16em !important;
+      width: 9em !important;
+
+      .imgbox {
+        height: 13em !important;
+      }
+      .card-body {
+        h5 {
+          font-size: 0.6em;
+        }
+      }
+    }
+  }
+}

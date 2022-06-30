@@ -1,0 +1,18 @@
+{{>Navbar}}
+
+<div class="container">
+     <h4 class="my-3 title" >{{heading}}</h4>
+       <div class="container cardbox">
+     {{#each data}}
+        {{>cards data=this}}
+         {{/each}}
+    </div>
+    {{#if activekey}}
+        {{>Pagination activekey=activekey}}
+    {{/if}}
+</div>
+ {{#if total}}
+<h1 id="total" hidden="true">{{{total}}}</h1>
+ {{/if}}
+{{>Footer}}
+

@@ -1,0 +1,45 @@
+{{>Navbar}}
+
+<div class="container ">
+     <h4 class="my-3">Hollywood</h4>
+    <div class="container cardbox ">
+     {{#each hollywood}}
+        {{>cards data=this}}
+     {{/each}}
+    </div>
+</div>
+<div class="container">
+     <h4 class="my-3">Bollywood</h4>
+        <div class="container cardbox">
+     {{#each bollywood}}
+        {{>cards data=this}}
+     {{/each}}
+    </div>
+</div>
+<div class="container">
+     <h4 class="my-3">Korean-movies</h4>
+         <div class="container cardbox">
+     {{#each kmovie}}
+        {{>cards data=this}}
+     {{/each}}
+    </div>
+</div>
+
+<div class="container">
+     <h4 class="my-3">Tv-series</h4>
+       <div class="container cardbox">
+     {{#each series}}
+        {{>cards data=this}}
+     {{/each}}
+    </div>
+</div>
+<div class="container">
+     <h4 class="my-3">K-drama</h4>
+       <div class="container cardbox">
+     {{#each kdrama}}
+        {{>cards data=this}}
+     {{/each}}
+    </div>
+</div>
+
+{{>Footer}}

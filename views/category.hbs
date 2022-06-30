@@ -1,0 +1,15 @@
+{{>Navbar}}
+<div class="container">
+     <h4 class="my-3 title" >{{title}}</h4>
+       <div class="container cardbox">
+     {{#each data}}
+        {{>cards data=this}} 
+         {{/each}}
+    </div>
+   
+</div>
+<div class=" my-4 container d-flex justify-content-center  align-items-center">
+{{>Pagination activekey=activekey}}
+</div>
+<h1 id="total" hidden="true">{{{total}}}</h1>
+{{>Footer}}

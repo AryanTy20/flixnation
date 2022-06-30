@@ -1,0 +1,17 @@
+{{>Navbar}}
+<div class="container">
+     <h4 class="my-3 title" >{{title}}</h4>
+      <div class="container  downBox">
+        {{#each data}}
+            <div class="poster">
+              {{>cards data=this}}
+            </div>
+            <div class="download ms-2 w-50 border">        
+            {{> download down=this}} 
+            </div>
+        {{/each}}
+
+        {{movies}}{{series}}
+    </div>
+</div>
+{{>Footer}}

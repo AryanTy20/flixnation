@@ -1,0 +1,11 @@
+{{#if down.series}}
+
+  {{#each down.data.links}}
+    <a class="btn btn-success" href="{{this}}">Download EP-{{inc @index}}</a>
+  {{/each}}
+
+{{/if}}
+
+{{#if down.movie}}
+  <a class="btn btn-success down-movie" href="{{down.data.links}}">Download</a>
+{{/if}}
