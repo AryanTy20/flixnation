@@ -48,7 +48,7 @@
     border: Solid green 1px;
   }
   .cardbox .card {
-    margin-left: -1em;
+    margin-left: -0.5em;
     height: 16em !important;
     width: 10.5em !important;
   }
