@@ -43,7 +43,7 @@
 #pagination {
   padding: 0.3em;
   display: flex;
-  align-items: start;
+  align-items: center;
 }
 #pagination a {
   margin: 0 0.2em;
@@ -120,6 +120,6 @@
     border: solid red 1px;
   }
   #pagination a {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 }/*# sourceMappingURL=category.css.map */
