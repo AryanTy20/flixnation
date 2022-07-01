@@ -45,6 +45,7 @@
     display: grid;
     grid-template: auto/repeat(2, 1fr);
     padding: 0 0.8em 0 0;
+    border: Solid green 1px;
   }
   .cardbox .card {
     height: 16em !important;
