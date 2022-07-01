@@ -53,11 +53,12 @@
     border: Solid green 1px;
 
     .card {
+      margin-left: -1em;
       height: 16em !important;
       width: 10.5em !important;
 
       .imgbox {
-        height: 13em !important;
+        height: 14em !important;
       }
       .card-body {
         h5 {

@@ -48,11 +48,12 @@
     border: Solid green 1px;
   }
   .cardbox .card {
+    margin-left: -1em;
     height: 16em !important;
     width: 10.5em !important;
   }
   .cardbox .card .imgbox {
-    height: 13em !important;
+    height: 14em !important;
   }
   .cardbox .card .card-body h5 {
     font-size: 0.6em;
