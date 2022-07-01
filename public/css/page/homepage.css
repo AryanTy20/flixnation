@@ -45,7 +45,6 @@
     display: grid;
     grid-template: auto/repeat(2, 1fr);
     gap: 1em;
-    border: Solid green 1px;
   }
   .cardbox .card {
     margin-left: -0.7em;

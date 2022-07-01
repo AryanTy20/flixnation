@@ -101,16 +101,25 @@
   .cardbox {
     display: grid;
     grid-template: auto/repeat(2, 1fr);
-    padding: 0 0.8em 0 0;
+    gap: 1em;
   }
   .cardbox .card {
+    margin-left: -0.7em;
     height: 16em !important;
-    width: 9em !important;
+    width: 10.5em !important;
   }
   .cardbox .card .imgbox {
-    height: 13em !important;
+    height: 14em !important;
   }
   .cardbox .card .card-body h5 {
+    margin-top: 0.2em;
     font-size: 0.6em;
+  }
+
+  #pagination {
+    border: solid red 1px;
+  }
+  #pagination a {
+    font-size: 0.6rem;
   }
 }/*# sourceMappingURL=category.css.map */
