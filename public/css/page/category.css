@@ -109,7 +109,7 @@
     width: 10.5em !important;
   }
   .cardbox .card .imgbox {
-    height: 14em !important;
+    height: 15em !important;
   }
   .cardbox .card .card-body h5 {
     margin-top: 0.2em;
@@ -117,6 +117,6 @@
   }
 
   #pagination a {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
 }/*# sourceMappingURL=category.css.map */
