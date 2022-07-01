@@ -48,17 +48,15 @@
     border: Solid green 1px;
   }
   .cardbox .card {
-    margin-left: -0.4em;
+    margin-left: -0.6em;
     height: 16em !important;
     width: 10.5em !important;
   }
   .cardbox .card .imgbox {
     height: 14em !important;
   }
-  .cardbox .card .card-body {
-    padding: 0.2em 0;
-  }
   .cardbox .card .card-body h5 {
+    margin-top: 0.2em;
     font-size: 0.6em;
   }
 }/*# sourceMappingURL=homepage.css.map */

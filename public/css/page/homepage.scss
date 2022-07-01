@@ -53,7 +53,7 @@
     border: Solid green 1px;
 
     .card {
-      margin-left: -0.4em;
+      margin-left: -0.6em;
       height: 16em !important;
       width: 10.5em !important;
 
@@ -61,8 +61,8 @@
         height: 14em !important;
       }
       .card-body {
-        padding: 0.2em 0;
         h5 {
+          margin-top: 0.2em;
           font-size: 0.6em;
         }
       }
