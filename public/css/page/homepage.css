@@ -44,12 +44,12 @@
   .cardbox {
     display: grid;
     grid-template: auto/repeat(2, 1fr);
-    padding: 0 0.6em 0 0;
+    gap: 1em;
     border: Solid green 1px;
   }
   .cardbox .card {
     height: 16em !important;
-    width: 10em !important;
+    width: 10.5em !important;
   }
   .cardbox .card .imgbox {
     height: 13em !important;
