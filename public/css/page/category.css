@@ -111,15 +111,15 @@
   .cardbox .card .imgbox {
     height: 14em !important;
   }
+  .cardbox .card .card-body {
+    height: 2em;
+  }
   .cardbox .card .card-body h5 {
     margin-top: 0.2em;
     font-size: 0.6em;
   }
 
-  #pagination {
-    border: solid red 1px;
-  }
   #pagination a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }/*# sourceMappingURL=category.css.map */
