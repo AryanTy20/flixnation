@@ -29,12 +29,12 @@ const first = document
 const last = document
   .querySelector(".last")
   .setAttribute("href", `/${title}/${totalPage}`);
-const next = document
-  .querySelector(".next")
-  .setAttribute("href", `/${title}/${current + 1}`);
-const prev = document
-  .querySelector(".prev")
-  .setAttribute("href", `/${title}/${current - 1}`);
+// const next = document
+//   .querySelector(".next")
+//   .setAttribute("href", `/${title}/${current + 1}`);
+// const prev = document
+//   .querySelector(".prev")
+//   .setAttribute("href", `/${title}/${current - 1}`);
 let rp = current;
 let lp = current;
 
